@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uddahp Sarkar | Aspiring Software Engineer & Java Full Stack Developer</title>
+    <meta name="description"
+        content="Portfolio of Uddahp Sarkar - Aspiring Software Engineer and Java Full Stack Developer specializing in Java, React.js, and database-driven applications.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-left-group">
+                <a href="#hero" class="logo">
+                    <span class="logo-text">Uddahp's Portfolio</span>
+                    <span class="logo-dots">
+                        <span class="dot orange"></span>
+                        <span class="dot cyan"></span>
+                    </span>
+                </a>
+                <a href="tel:+919346894053" class="nav-phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+91 9346894053</span>
+                </a>
+            </div>
+            <nav class="nav-links" id="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#services" class="nav-link">Skills</a>
+                <a href="#credentials" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#contact" class="btn-hire-me">Hire Me</a>
+                <a href="U/Uddahp-Sarkar.pdf" class="btn-download-cv" download>
+                    <i class="fa-solid fa-download"></i>
+                    <span>Download CV</span>
+                </a>
+            </div>
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section with Narendar_img.png Background -->
+    <section class="hero-section" id="hero">
+        <!-- Background-based hero layout kept for reference and future adjustments.-->
+        <div class="hero-bg-container">
+            <!-- <img src="./assets/backk.png" alt="Portfolio Hero Image" class="hero-bg-image"> -->
+            <div class="hero-bg-name-wrapper">
+                <span class="bg-name-himanshu">UDDAHP</span>
+                <span class="bg-name-kumar">SARKAR</span>
+            </div>
+            <div class="hero-overlay-left"></div>
+            <div class="hero-overlay-bottom"></div>
+            <div class="hero-ambient-red"></div>
+            <div class="hero-ambient-crimson"></div>
+        </div>
+        
+
+        <div class="hero-content container">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Open to Internship Opportunities
+            </div>
+            <h1 class="hero-headline-big">
+                <span class="text-sand">I DON'T JUST</span><br>
+                <span class="text-sand">WRITE </span><span class="text-black">CODE.</span><br>
+                <span class="text-sand">I BUILD</span><br>
+                <span class="text-black">SOLUTIONS.</span>
+            </h1>
+            <p class="hero-description-cinematic">
+                I'm an aspiring software engineer specializing in Java full-stack development — turning logic into
+                working applications, one clean, well-structured line at a time.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">
+                    <span>View Projects</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span>Contact Me</span>
+                </a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="2">2+</span>
+                    <span class="stat-label">Years Coding Practice</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="3">3+</span>
+                    <span class="stat-label">Projects Built</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="4">4+</span>
+                    <span class="stat-label">Certifications Earned</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-image-panel" aria-label="Profile photo">
+            <img src="./assets/Gemini_Generated.png" alt="Uddahp Sarkar profile" class="hero-portrait">
+        </div> 
+    </section>
+
+    <!-- Main Body Container with Continuous Dark Theme & Lighting Accents -->
+    <main class="main-content">
+
+        <!-- Background Glow Orbs matching photo theme -->
+        <div class="glow-orb orange-glow orb-1"></div>
+        <div class="glow-orb cyan-glow orb-2"></div>
+        <div class="glow-orb orange-glow orb-3"></div>
+
+        <!-- About Section -->
+        <!-- ================= ABOUT SECTION ================= -->
+
+        <section class="section about-section" id="about">
+
+        <!-- Background Section Title -->
+        <div class="about-bg-title-wrapper">
+            <span class="about-bg-title">ABOUT ME</span>
+        </div>
+
+        <div class="container about-editorial">
+
+            <!-- ================= LEFT CONTENT ================= -->
+
+            <div class="about-intro">
+
+                <h2 class="about-editorial-title">
+                    I'm Uddahp, a
+                    <span>Java Full Stack Developer</span>
+                    who believes in clean code and practical solutions.
+                </h2>
+
+                <p class="about-editorial-description">
+                    I'm a BCA graduate currently pursuing my MCA at Avanthi
+                    Degree and PG College, Hyderabad. I enjoy turning ideas
+                    into functional software through clean architecture,
+                    thoughtful design, and hands-on development.
+                </p>
+
+                <p class="about-editorial-description">
+                    My current focus is Java full-stack development, with
+                    experience and growing expertise in Java, Spring Boot,
+                    REST APIs, React.js, databases, and modern web technologies.
+                </p>
+
+            </div>
+
+
+            <!-- ================= RIGHT PROFILE ================= -->
+
+            <div class="about-profile">
+
+                <!-- Profile Heading -->
+
+                <div class="profile-heading">
+                    <strong>Developer Profile</strong>
+                </div>
+
+
+                <!-- Role -->
+
+                <div class="profile-row">
+
+                    <div class="profile-label">
+                        Role
+                    </div>
+
+                    <div class="profile-value">
+                        Java Full Stack Developer<br>
+                        MCA Student
+                    </div>
+
+                </div>
+
+
+                <!-- Focus -->
+
+                <div class="profile-row">
+
+                    <div class="profile-label">
+                        Focus
+                    </div>
+
+                    <div class="profile-value">
+                        Java &amp; Spring Boot<br>
+                        REST API Development<br>
+                        React.js<br>
+                        Database Management<br>
+                        Full Stack Applications
+                    </div>
+
+                </div>
+
+
+                <!-- Education -->
+
+                <div class="profile-row">
+
+                    <div class="profile-label">
+                        Education
+                    </div>
+
+                    <div class="profile-value">
+                        MCA — Pursuing<br>
+                        BCA — Graduate
+                    </div>
+
+                </div>
+
+
+                <!-- Works With -->
+
+                <div class="profile-row">
+
+                    <div class="profile-label">
+                        Works With
+                    </div>
+
+                    <div class="profile-value">
+                        Real-world applications &amp; software projects
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        </section>
+
+        <!-- Work / Projects Section -->
+        <section class="section reviews-section" id="reviews">
+            <div class="reviews-bg-title-wrapper">
+                <span class="reviews-bg-title">PROJECTS</span>
+            </div>
+
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">
+                        <span class="text-sand">Featured</span>
+                        <span class="text-black">Projects</span>
+                    </h2>
+                </div>
+            </div>
+
+                <div class="reviews-carousel-wrapper">
+
+                    <div class="reviews-track">
+
+                        <!-- Original Cards -->
+
+                        <div class="review-card glass-card">
+                            <div class="review-stars">
+                                <i class="fa-solid fa-certificate"></i>
+                            </div>
+                            <p class="review-text">
+                                C++ Basics: Selection and Iteration &mdash; a foundational course
+                                covering conditional logic and loop structures in C++.
+                            </p>
+                            <div class="review-author">
+                                <div class="author-details">
+                                    <h4 class="author-name">Coursera</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-card glass-card">
+                            <div class="review-stars">
+                                <i class="fa-solid fa-certificate"></i>
+                            </div>
+                            <p class="review-text">
+                                C++ Basic Structures: Vectors, Pointers, Strings, and Files
+                                &mdash; hands-on work with core C++ data structures and file handling.
+                            </p>
+                            <div class="review-author">
+                                <div class="author-details">
+                                    <h4 class="author-name">Coursera</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-card glass-card">
+                            <div class="review-stars">
+                                <i class="fa-solid fa-certificate"></i>
+                            </div>
+                            <p class="review-text">
+                                Object-Oriented Hierarchies in Java &mdash; inheritance,
+                                polymorphism, and class design principles in Java.
+                            </p>
+                            <div class="review-author">
+                                <div class="author-details">
+                                    <h4 class="author-name">Coursera (LearnQuest)</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-card glass-card">
+                            <div class="review-stars">
+                                <i class="fa-solid fa-certificate"></i>
+                            </div>
+                            <p class="review-text">
+                                Java Class Library &mdash; working with Java&rsquo;s built-in
+                                classes and core library utilities.
+                            </p>
+                            <div class="review-author">
+                                <div class="author-details">
+                                    <h4 class="author-name">Coursera (LearnQuest)</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-card glass-card">
+                            <div class="review-stars">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <p class="review-text">
+                                Master of Computer Applications (MCA) &mdash; currently in progress,
+                                focused on Java Full Stack Development, React.js, and databases.
+                            </p>
+                            <div class="review-author">
+                                <div class="author-details">
+                                    <h4 class="author-name">Avanthi Degree &amp; PG College</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-card glass-card">
+                            <div class="review-stars">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <p class="review-text">
+                                Bachelor of Computer Applications (BCA) &mdash; graduated with honors,
+                                building strong foundations in Java, C, Data Structures, and DBMS.
+                            </p>
+                            <div class="review-author">
+                                <div class="author-details">
+                                    <h4 class="author-name">Pinnacle Degree College</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- DUPLICATE CARDS FOR INFINITE LOOP -->
+
+                        <div class="review-card glass-card">
+                            <div class="review-stars">
+                                <i class="fa-solid fa-certificate"></i>
+                            </div>
+                            <p class="review-text">
+                                C++ Basics: Selection and Iteration &mdash; a foundational course
+                                covering conditional logic and loop structures in C++.
+                            </p>
+                            <div class="review-author">
+                                <div class="author-details">
+                                    <h4 class="author-name">Coursera</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-card glass-card">
+                            <div class="review-stars">
+                                <i class="fa-solid fa-certificate"></i>
+                            </div>
+                            <p class="review-text">
+                                C++ Basic Structures: Vectors, Pointers, Strings, and Files
+                                &mdash; hands-on work with core C++ data structures and file handling.
+                            </p>
+                            <div class="review-author">
+                                <div class="author-details">
+                                    <h4 class="author-name">Coursera</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-card glass-card">
+                            <div class="review-stars">
+                                <i class="fa-solid fa-certificate"></i>
+                            </div>
+                            <p class="review-text">
+                                Object-Oriented Hierarchies in Java &mdash; inheritance,
+                                polymorphism, and class design principles in Java.
+                            </p>
+                            <div class="review-author">
+                                <div class="author-details">
+                                    <h4 class="author-name">Coursera (LearnQuest)</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-card glass-card">
+                            <div class="review-stars">
+                                <i class="fa-solid fa-certificate"></i>
+                            </div>
+                            <p class="review-text">
+                                Java Class Library &mdash; working with Java&rsquo;s built-in
+                                classes and core library utilities.
+                            </p>
+                            <div class="review-author">
+                                <div class="author-details">
+                                    <h4 class="author-name">Coursera (LearnQuest)</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-card glass-card">
+                            <div class="review-stars">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <p class="review-text">
+                                Master of Computer Applications (MCA) &mdash; currently in progress,
+                                focused on Java Full Stack Development, React.js, and databases.
+                            </p>
+                            <div class="review-author">
+                                <div class="author-details">
+                                    <h4 class="author-name">Avanthi Degree &amp; PG College</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-card glass-card">
+                            <div class="review-stars">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <p class="review-text">
+                                Bachelor of Computer Applications (BCA) &mdash; graduated with honors,
+                                building strong foundations in Java, C, Data Structures, and DBMS.
+                            </p>
+                            <div class="review-author">
+                                <div class="author-details">
+                                    <h4 class="author-name">Pinnacle Degree College</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Services Section with 5 Fanned Cards -->
+        <section class="section services-section" id="services">
+            <div class="container services-container-new">
+                <!-- Left Column: Header & Headline Text -->
+                <div class="services-left-col">
+                    <div class="services-header-left">
+                        <span class="services-tag-sm">WHAT I BRING</span>
+                        <h2 class="services-title-sm">Skills</h2>
+                    </div>
+                    <p class="services-hero-text">
+                        I build <span class="text-black">reliable</span> and well-structured software from the
+                        ground up
+                    </p>
+                </div>
+
+                <!-- Right Column: 5 Cards 3D Fanned Stack Animation -->
+                <div class="services-right-col">
+                    <div class="services-card-stack">
+                        <!-- Card 1: Java Development -->
+                        <div class="stack-card card-1 glass-card">
+                            <div class="stack-card-inner">
+                                <div class="stack-icon-box"><i class="fa-brands fa-java"></i></div>
+                                <h4 class="stack-card-title">Java Development</h4>
+                                <p class="stack-card-sub">OOP &amp; Swing Applications</p>
+                                <div class="stack-card-img-wrapper">
+                                    <i class="fa-brands fa-java stack-visual-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2: Web & Frontend -->
+                        <div class="stack-card card-2 glass-card">
+                            <div class="stack-card-inner">
+                                <div class="stack-icon-box"><i class="fa-brands fa-react"></i></div>
+                                <h4 class="stack-card-title">Web &amp; Frontend</h4>
+                                <p class="stack-card-sub">React.js &amp; JavaScript</p>
+                                <div class="stack-card-img-wrapper">
+                                    <i class="fa-brands fa-react stack-visual-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 3: Databases -->
+                        <div class="stack-card card-3 glass-card">
+                            <div class="stack-card-inner">
+                                <div class="stack-icon-box"><i class="fa-solid fa-database"></i></div>
+                                <h4 class="stack-card-title">Databases</h4>
+                                <p class="stack-card-sub">SQL &amp; MySQL</p>
+                                <div class="stack-card-img-wrapper">
+                                    <i class="fa-solid fa-database stack-visual-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 4: Backend & APIs -->
+                        <div class="stack-card card-4 glass-card">
+                            <div class="stack-card-inner">
+                                <div class="stack-icon-box"><i class="fa-solid fa-server"></i></div>
+                                <h4 class="stack-card-title">Backend &amp; APIs</h4>
+                                <p class="stack-card-sub">Spring Boot &amp; REST APIs</p>
+                                <div class="stack-card-img-wrapper">
+                                    <i class="fa-solid fa-server stack-visual-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 5: Tools & Version Control -->
+                        <div class="stack-card card-5 glass-card">
+                            <div class="stack-card-inner">
+                                <div class="stack-icon-box"><i class="fa-brands fa-git-alt"></i></div>
+                                <h4 class="stack-card-title">Tools &amp; Git</h4>
+                                <p class="stack-card-sub">Git, GitHub &amp; IntelliJ</p>
+                                <div class="stack-card-img-wrapper">
+                                    <i class="fa-brands fa-git-alt stack-visual-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Education Section -->
+        <section class="section credentials-section" id="credentials">
+            <div class="reviews-bg-title-wrapper">
+                <span class="reviews-bg-title">CREDENTIALS</span>
+            </div>
+
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">
+                        <span class="text-sand">Certifications</span>
+                        <span class="text-black">&amp; Education</span>
+                    </h2>
+                </div>
+
+                <div class="credentials-grid">
+                    <!-- Certification 1 -->
+                    <article class="credential-card certification-card">
+                        <div class="credential-top">
+                            <div class="credential-icon">
+                                <i class="fa-solid fa-certificate"></i>
+                            </div>
+                            <span class="credential-type">CERTIFICATION</span>
+                        </div>
+                        <div class="credential-content">
+                            <span class="credential-number">01</span>
+                            <h3>C++ Basics: Selection &amp; Iteration</h3>
+                            <p>Foundational C++ concepts covering conditional logic, selection statements, and iterative loop structures.</p>
+                        </div>
+                        <div class="credential-footer">
+                            <div>
+                                <span class="credential-label">ISSUED BY</span>
+                                <strong>Coursera</strong>
+                            </div>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                    </article>
+
+                    <!-- Certification 2 -->
+                    <article class="credential-card certification-card">
+                        <div class="credential-top">
+                            <div class="credential-icon">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <span class="credential-type">CERTIFICATION</span>
+                        </div>
+                        <div class="credential-content">
+                            <span class="credential-number">02</span>
+                            <h3>C++ Basic Structures</h3>
+                            <p>Hands-on learning with vectors, pointers, strings, files, core data structures, and file handling.</p>
+                        </div>
+                        <div class="credential-footer">
+                            <div>
+                                <span class="credential-label">ISSUED BY</span>
+                                <strong>Coursera</strong>
+                            </div>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                    </article>
+
+                    <!-- Certification 3 -->
+                    <article class="credential-card certification-card">
+                        <div class="credential-top">
+                            <div class="credential-icon">
+                                <i class="fa-brands fa-java"></i>
+                            </div>
+                            <span class="credential-type">CERTIFICATION</span>
+                        </div>
+                        <div class="credential-content">
+                            <span class="credential-number">03</span>
+                            <h3>Object-Oriented Hierarchies in Java</h3>
+                            <p>Java inheritance, polymorphism, class hierarchies, and object-oriented design principles.</p>
+                        </div>
+                        <div class="credential-footer">
+                            <div>
+                                <span class="credential-label">ISSUED BY</span>
+                                <strong>Coursera · LearnQuest</strong>
+                            </div>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                    </article>
+
+                    <!-- Certification 4 -->
+                    <article class="credential-card certification-card">
+                        <div class="credential-top">
+                            <div class="credential-icon">
+                                <i class="fa-brands fa-java"></i>
+                            </div>
+                            <span class="credential-type">CERTIFICATION</span>
+                        </div>
+                        <div class="credential-content">
+                            <span class="credential-number">04</span>
+                            <h3>Java Class Library</h3>
+                            <p>Working with Java's built-in classes and core library utilities for application development.</p>
+                        </div>
+                        <div class="credential-footer">
+                            <div>
+                                <span class="credential-label">ISSUED BY</span>
+                                <strong>Coursera · LearnQuest</strong>
+                            </div>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                    </article>
+
+                    <!-- Education 1 -->
+                    <article class="credential-card education-card featured-education">
+                        <div class="credential-top">
+                            <div class="credential-icon">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <span class="credential-type">CURRENTLY PURSUING</span>
+                        </div>
+                        <div class="credential-content">
+                            <span class="credential-number">MCA</span>
+                            <h3>Master of Computer Applications</h3>
+                            <p>Currently pursuing MCA with a focus on Java Full Stack Development, React.js, and database technologies.</p>
+                            <div class="education-focus">
+                                <span>Java Full Stack</span>
+                                <span>React.js</span>
+                                <span>Databases</span>
+                            </div>
+                        </div>
+                        <div class="credential-footer">
+                            <div>
+                                <span class="credential-label">INSTITUTION</span>
+                                <strong>Avanthi Degree &amp; PG College</strong>
+                            </div>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                    </article>
+
+                    <!-- Education 2 -->
+                    <article class="credential-card education-card">
+                        <div class="credential-top">
+                            <div class="credential-icon">
+                                <i class="fa-solid fa-user-graduate"></i>
+                            </div>
+                            <span class="credential-type">COMPLETED</span>
+                        </div>
+                        <div class="credential-content">
+                            <span class="credential-number">BCA</span>
+                            <h3>Bachelor of Computer Applications</h3>
+                            <p>Built strong foundations in Java, C, Data Structures, and Database Management Systems.</p>
+                            <div class="education-focus">
+                                <span>Java</span>
+                                <span>C</span>
+                                <span>Data Structures</span>
+                                <span>DBMS</span>
+                            </div>
+                        </div>
+                        <div class="credential-footer">
+                            <div>
+                                <span class="credential-label">INSTITUTION</span>
+                                <strong>Pinnacle Degree College</strong>
+                            </div>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title"><span class="text-sand">Get In</span> <span
+                            class="text-black">Touch</span></h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info glass-card">
+                        <h3>Contact Information</h3>
+                        <p>Feel free to reach out through the contact form or directly via email or social channels.</p>
+
+                        <div class="info-items">
+                            <div class="info-item">
+                                <div class="info-icon orange-icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="info-content">
+                                    <span class="info-label">Email</span>
+                                    <a href="mailto:uddahpsarkarpdc@gmail.com"
+                                        class="info-value">uddahpsarkarpdc@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon cyan-icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="info-content">
+                                    <span class="info-label">Location</span>
+                                    <span class="info-value">Hyderabad, Telangana, India</span>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon orange-icon">
+                                    <i class="fa-solid fa-calendar-check"></i>
+                                </div>
+                                <div class="info-content">
+                                    <span class="info-label">Availability</span>
+                                    <span class="info-value">Open for Internships &amp; Full-time Roles</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/uddahpsarkar/" target="_blank" rel="noopener noreferrer" class="social-btn"
+                                aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com/uddahpsarkar" target="_blank" rel="noopener noreferrer" class="social-btn"
+                                aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a href="mailto:uddahpsarkarpdc@gmail.com" class="social-btn" aria-label="Email"><i
+                                    class="fa-solid fa-envelope"></i></a>
+                        </div>
+
+                        <a href="./assets/Uddahp_Sarkar_Resume.pdf" class="btn-download-cv contact-download-btn" download>
+                            <i class="fa-solid fa-download"></i>
+                            <span>Download CV</span>
+                        </a>
+                    </div>
+
+                    <form class="contact-form glass-card" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" required placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" required placeholder="uddahpsarkarpdc@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" required placeholder="Project Inquiry / Collaboration">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required
+                                placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span>Send Message</span>
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                        <div class="form-status" id="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Uddahp Sarkar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to top floating button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- EmailJS SDK v4 -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
